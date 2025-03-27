@@ -1,0 +1,65 @@
+/* Set a max width and center-align the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Style the product image */
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Title of the product */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Price styling */
+h3.text-primary {
+    font-size: 22px;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Category and description text */
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.text-muted {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Add to cart button */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
